@@ -1,0 +1,81 @@
+# Publicacions antigues (rincondeice)
+
+Les següents entrades son anteriors a 2022 i es van publicar totes al bloc, rincondeice.
+
+---
+date:
+    created: 2021-11-28
+---
+
+## Lector eDNI en MAC OS X (Catalina) y OS 11 (Big Sur)
+
+**Instalación y configuración del lector USB de e-DNI en MAC**
+
+ Con un DNI-e hasta versión 2.0 (Chip en la parte anterior o anverso del DNI) o DNI-e 3.0 (Chip en el reverso del DNI y fotografía en el anverso), [aquí](https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_038&id_menu=1) puedes ver las diferencias, puedes utilizarlo para validar tu identidad en páginas web oficiales o para firmar archivos PDF, entre otras cosas.
+
+ > :bulb: Necesitarás un lector, de los muchos que existen en el mercado, yo he hecho la prueba con un **SVEON SCT011M** del que no me supieron solucionar, el porque no lo detectaba en MAC OS.
+
+<!-- more -->
+
+ Pues bien, supongo que esto será extensible a cualquier lector de DNIe así que lo primero que tienes que hacer es la instalación de los certificados y librerías, que podrás descargar desde el [siguiente enlace](https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_1113).
+
+ El software anterior funciona en Catalina y Big Sur. Da igual que descargues el archivo .dmg o el .pkg (el .pkg está encapsulado en el .dmg), eso si, tienes que dar permisos de ejecución, así que al intentar ejecutar la descarga te aparecerá un aviso bloqueando la instalación. Accede a **PREFERENCIAS / SEGURIDAD Y PRIVACIDAD** y en Permitir apps descargadas de: “App Store y desarrolladores identificados“. 
+
+Desbloquea el candado y permite que prosiga la instalación.
+Cuando finalice aparecerá una página que te indica como continuar con la modificación de las preferencias de privacidad y seguridad del navegador Firefox (yo he hecho las pruebas con la versión 83.0 de 64 bits, obviamente).
+
+Ahora tienes que seguir los pasos de la imagen siguiente para instalar el módulo de cifrado PKCS#11 desde el botón **Dispositivos de seguridad..** (imagen superior de Firefox) y a continuación el Certificado Raíz de la pestaña Autoridades, a la que accederás después de pulsar en **Ver certificados..** Lo único que hay que hacer en cada caso es indicar la ruta donde encontrarlos y que está en: **/Library/Libpkcs11-dnie/lib/libpkcs11-dnie.so** para el primer caso y la ruta **/Library/Libpkcs11-dnie/ac_raiz_dnie.crt** en el segundo caso.
+
+Una vez hecho esto y cada vez que quieras utilizar el lector de DNIe **lo que tienes que hacer (en la mayoría de los casos) es arrancar con el lector conectado al una ranura USB para que lo detecte al inicio**, de esa forma si lo quieres utilizar lo siguiente será introducir el DNIe con el chip hacia abajo (en este lector en particular, en otros podría ser justo al revés) y lo siguiente, iniciar el navegador Firefox.
+
+Para comprobar si la detección es correcta, sólo tienes que abrir las preferencias de Firefox y en privacidad y seguridad, pulsar en Ver Certificados y debería aparece tu Certificado del DNIe
+
+### Firmar documentos PDF en Adobe Reader 
+
+1.- Pinchar en el menú superior **Acrobat Reader / Preferencias / Firmas** y a continuación en las opciones que aparecen a la derecha, haz clic en el botón **Más..** que aparece en **Identidades y certificados de confianza**.
+
+Dentro de ID digitales, sitúate en **Módulos y distintivos PKCS#11** y pincha en **Adjuntar módulo**.
+
+La ruta del módulo és la que utilizamos anteriormente y se encuentra en: **/Library/Libpkcs11-dnie/lib/libpkcs11-dnie.so**
+
+Una vez cargada, si le das al botón **Actualizar** debería pedirte la clave o PIN de seguridad de tu DNIe (10 dígitos alfanuméricos) que en su día debiste configurar en la máquina correspondiente de la oficina de expedición del DNIe
+
+Una vez aparezca el DNIe como **Conectado**, ya puedes utilizarlo para firmar en Adobe Reader.
+
+Para firmar un PDF, ábrelo y haz clic en **Herramientas / Certificados**.
+
+Ahora podremos pulsar en **Firmar digitalmente** y marchar un rectángulo dónde se incluirá nuestra firma digital.
+
+Nos aparecerá la selección del Certificado a utilizar y el nombre y ubicación donde  guardaremos el nuevo archivo PDF firmado, que podemos dejar bloqueado para que no se pueda alterar o volver a firmar o bien dejarlo sin bloquear en el caso de que más personas tengan que firmar digitalmente en el.
+
+La firma digital no es una firma manuscrita, si no que nos identifica de forma irrevocable mediante un certificado digital válido, expedido por una entidad certificadora reconocida. Su apariencia puede incluir nuestro nombre y apellidos con la fecha y hora del momento de la firma o bien cualquier otro elemento, como la emulación de nuestra firma manuscrita. El original siembre es el documento firmado digitalmente y cualquier impresión de el, se considera una copia y no el documento original en si, que hay que guardarlo de forma digital.
+
+
+---
+date:
+    created: 2021-10-23
+---
+## NAS WD My cloud, firmware error update OS 3 to OS 5
+
+En la última actualización del NAS Western Digital  (WD) My Cloud,  en un dispositivo de bahía única de 4TB se corrompió el sistema…
+
+WD My Cloud, a partir de la versión 2.41.116 del firmware (OS 3) para versiones 2 de sus dispositivos NAS WD My Cloud (son los que el product number acaba de esta forma (P/N: WDxxxxxxxxHWT – 10), actualiza a su versión OS 5.
+<!-- more -->
+Resulta que de OS 3 firmware **2.41.116** había recomendación de actualizar a OS 5 y la actualización en línea se quedaba a medias, así que lo descargué  y instalé manualmente des del panel web de control (al que accedes mediante la url o IP del NAS). Una vez instalado y reiniciado el sistema, tendrás que configurar de nuevo ciertas cosas, como la contraseñas que no cumplan la nueva política o el acceso de contenidos a la nube, etc.. Te recomiendo que antes y después de la actualización hagas copia de seguridad del archivo de configuración y lo referencies con su firmware, en cada caso.
+
+Después de unos días con el nuevo firmware 5.16.105 aparece un nuevo aviso de actualización a la 5.17.107
+
+Al pinchar en actualizar ahora, se inicia el proceso de actualización bajando el archivo binario del firmware y instalando en el NAS. La descarga se realiza rápida y correctamente pero no así la instalación, que tras bastantes minutos de espera y viendo que la luz azul del indicador led frontal del NAS no parpadeaba y que des del panel de control tampoco se podía hacer nada, decidí reiniciarlo manualmente (desconectar y volver a conectar la alimentación) aunque las indicaciones en pantalla eran, no desconecte el producto de la red mientras esté actualizando… si pero es que se había quedado bloqueado, qué podía hacer..?
+
+Otras veces no había pasado nada, pero esta si, el indicador azul se volvió rojo parpadeante y apareció la siguiente pantalla de SAFE MODE.
+
+Aparentemente debía volver a cargar el archivo del último firmware que tenía (5.16.105) o bajar el último que se había quedado a medías y debería solucionarse, pero no, en ningún caso hay respuesta posible. Tus datos deberían estar a salvo, pero no puedes acceder al sistema de ninguna manera. 
+
+La solución era simple, el sistema de recuperación espera una versión anterior a la que le intentamos cargar, así que le pasé la última antes del cambio de versión, de OS 3 a OS 5, la (2.41.116) que tenía guardada en el ordenador y por fin arrancó el sistema. Es posible que no puedas acceder como admin y tengas que reiniciar el usuario admin a su password por defecto (sin password) para ello deberás hacer un reset de 4 segundos o si no funciona, el de 40 segundos. La unidad también pasará a modo DHCP (puedes utilizar nmap para localizar la IP asignada o entrar en el mapa de red de tu router). Otras funcionalidades quedaran desactivadas (como el acceso SSH). Este proceso puede tardar entre 5 y 15 minutos aproximadamente, hasta que la luz led de color azul, deje de parpadear.
+
+Ahora sólo había que importar su archivo de configuración y básicamente tendría todo como antes. Después de esto volví a enviar de forma manual el firmware de OS 5 (5.16.105) y de nuevo su archivo de configuración. Todo a salvo, pero de momento esperaré a un nuevo firmware antes de actualizar por si acaso y eso si, prefiero bajarlo yo antes y cargarlo de forma manual.
+
+Por cierto, si quieres tener todo a salvo, también deberías tener copia del NAS y no dejarla como única opción. En la versión 5 puedes descargar la aplicación USB Backups y con un disco externo USB 3.+ de 4TB hacer copias sincronizadas.
+
+Más info sobre: [NAS WD My Cloud](https://support-en.wd.com/app/products/product-detail/p/126#WD_downloads)
+
