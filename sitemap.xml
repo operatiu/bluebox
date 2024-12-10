@@ -2,42 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://operatiu.github.io/bluebox/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
          <loc>https://operatiu.github.io/bluebox/blog/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/operatiu.es/2022-04-14-nou-lloc-i-domini/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/tags/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/operatiu.es/2022-04-18-beques-per-al-curs-2022-23/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/author/team/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/operatiu.es/2022-04-21-calendari-preinscripcio-ensenyament-post-obligatori/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/2022/04/14/nou-lloc-i-domini/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/operatiu.es/2022-05-02-google-sheets/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/2022/04/18/beques-curs-2022-23/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/operatiu.es/2022-05-14-alwaysdata/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/2022/04/21/calendari-preinscripci%C3%B3-ensenyament-post-obligatori/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/rincon-de-ice/2009-04-21-el-navegante/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/2022/05/02/google-sheets/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/rincon-de-ice/2018-08-03-clonar-disco-de-sistema-windows/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/2022/05/14/alwaysdata/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
     <url>
-         <loc>https://operatiu.github.io/bluebox/blog/posts/rincon-de-ice/publicacions-antigues/</loc>
-         <lastmod>2024-12-08</lastmod>
+         <loc>https://operatiu.github.io/bluebox/blog/2009/04/21/el-navegnte/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/2018/08/03/2018-08-03-clonar-disco-de-sistema-windows/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/2022/04/14/publicacions-antigues-rincondeice/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/archive/2022/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/archive/2018/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/archive/2009/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/category/inform%C3%A0tica/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/category/internet/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/category/educaci%C3%B3/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/category/uncategorized/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/page/2/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/blog/archive/2022/page/2/</loc>
+         <lastmod>2024-12-10</lastmod>
+    </url>
+    <url>
+         <loc>https://operatiu.github.io/bluebox/tags/</loc>
+         <lastmod>2024-12-10</lastmod>
     </url>
 </urlset>
