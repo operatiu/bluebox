@@ -1,0 +1,202 @@
+# Project information
+site_name: The Blue Box
+site_url: https://operatiu.github.io/bluebox/
+site_description: The blue box - Solucions a petits problemes informàtics o de disseny.
+site_author: Joan M.
+
+# Copyright
+copyright: Copyright &copy; 2024 Joan M. 
+
+#Configuration
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  ##custom_dir: material/overrides
+  favicon: assets/favicon.png
+#  extra_css:
+#    - stylesheets/extra.css
+  language: ca
+  logo: assets/images/logo.png
+  palette:
+  # palette for dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  # palette for light mode
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    ##- header.autohide
+    ##- announce.dismiss
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    # - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+plugins:
+  # - privacy
+    ##- typeset
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - blog:
+      blog_toc: true
+      #archive_date_format: yyyy
+      categories_allowed:
+        - Holidays
+        - News
+        - Informàtica
+        - internet
+        - Educació
+        - Relats
+        - Articles
+        - Antigues
+        - Uncategorized
+        - Portada
+        - mysql
+        
+        ##post_excerpt: optional
+        ##post_excerpt_separator: <!-- more -->
+        ##blog_dir: blog
+      ##  include_drafts: false
+      #  post_dir: "{blog}/posts"
+        ##post_dir: blog/posts
+      pagination: true
+      pagination_per_page: 5
+      #date_from_meta:
+      #  as_creation: date
+      #categories:
+      #  - categories
+      #  - tags
+        ##post_date_format: short
+        # post_url_date_format: YYYY-MM-dd
+      #  archive_date_format: yyyy
+        ##log_level: DEBUG
+        ##use_summary: true
+      #  archive_pagination_per_page: 5
+  #- tags
+  - rss:
+      match_path: "blog/posts/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+        #categories:
+        #  - categories
+        #  - tags
+          #image:
+          #    https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+  - tags:
+      enabled: true
+      tags_file: tags.md
+      # tags_hierarchy: true
+    # - tags
+    ##- minify:
+    ##  minify_html: true
+# extra_css:
+#  - assets/stylesheets/extra.css
+
+# Additional configuration
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      Aquest lloc no fa servir cookies pròpies o de tercers.
+    actions:
+      - accept
+      - manage
+    copyright: >
+      Copyright &copy; 2024 Joan M. –
+      <a href="#__consent">Change cookie settings</a>
+
+  #extra_css:
+  #  - stylesheets/extra.css
+  ##status:
+  ##  new: Recently added
+  ##  deprecated: Deprecated
+  ##generator: false
+  #debug: true
+  social:
+    - icon: fontawesome/brands/youtube
+      name: youtube
+      link: https://www.youtube.com/
+
+##hooks:
+##  - hooks/socialmedia.py
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  ##- def_list
+  ##- footnotes
+  ##- md_in_html
+  - tables
+  ##- toc:
+  ##    permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  ##- pymdownx.betterem:
+  ##    smart_enable: all
+  ##- pymdownx.caret
+  ##- pymdownx.critic
+  ##- pymdownx.details
+  - pymdownx.emoji:
+    #  emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    #  emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  ##- pymdownx.inlinehilite
+  ##- pymdownx.keys
+  ##- pymdownx.magiclink:
+  ##    normalize_issue_symbols: true
+  ##    repo_url_shorthand: true
+  ##    user: squidfunk
+  ##    repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+  ##    auto_append:
+  ##      - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+  ##- pymdownx.tabbed:
+  ##    alternate_style: true
+  ##    combine_header_slug: true
+  ##    slugify:
+  ##      kwds:
+  ##        case: lower
+  ##- pymdownx.tasklist:
+  ##    custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+#nav:
+#  - Home: index.md
+#  - Tags: tags.md
+#  - Blog:
+#      - blog/index.md
+#      - blog/tags.md
