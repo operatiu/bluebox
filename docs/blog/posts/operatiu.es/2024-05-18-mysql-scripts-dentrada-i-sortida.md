@@ -52,7 +52,7 @@ notee
 SOURCE ~/script_out.sql
 ```
 
-Per veure el resultat obtingut:
+**Per veure el resultat obtingut**:
 
 ```shell
 sudo cat /tmp/sortida.txt
