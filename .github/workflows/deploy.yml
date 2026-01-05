@@ -23,7 +23,11 @@ jobs:
 
       - name: Install MkDocs and plugins
         run: |
-          pip install mkdocs-material pymdown-extensions mkdocs-blog-plugin
+          pip install \
+            mkdocs-material \
+            pymdown-extensions \
+            mkdocs-rss-plugin
 
       - name: Deploy with MkDocs
         run: mkdocs gh-deploy --force
+
