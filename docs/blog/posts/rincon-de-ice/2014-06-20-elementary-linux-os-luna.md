@@ -20,6 +20,7 @@ tags:
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/w_150/Elementary.svg_fanwua.png "elementary")
 
 **Elementary OS Luna**, es un sistema operativo GNU/Linux ligero basado en Ubuntu, con entorno de escritorio Pantheon, lanzador de aplicaciones SlingShot (integrado en el WingPanel o panel superior) y un zócalo de aplicaciones o Dock que es Plank. En conjunto presenta un aspecto sencillo y potente muy a lo MAC OS. Hasta aquí nada que no puedas encontrar en cientos de sitios. Pero lo que me interesa explicar hoy la solución adoptada para un problema con SlingShot.
+<!-- more -->
 
 El tema es fácil, **SlingShot** muestra a todos los usuarios todos los lanzadores de aplicaciones y como habrás imaginado ya, determinados usuarios no necesitan tener ciertos iconos de acceso a aplicaciones a su alcance. Como personalizo esto?
 

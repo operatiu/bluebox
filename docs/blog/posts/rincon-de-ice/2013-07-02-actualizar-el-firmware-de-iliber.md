@@ -20,6 +20,7 @@ tags:
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/iliberEB600_tteptm.gif "iliber")
 
 Hace unos días cogí mi viejo ebook, un iliber EB600 de hace ya unos cuantos años pero de funcionamiento genial hasta ahora. Al encenderlo empezó la clásica prueba de grises, marcando uno tras otro los siete puntos a la derecha de la pantalla, pero en vez de cargar el sistema, ahí se quedaba, bloqueado, esperando no se muy bien qué…, ni siquiera respondía al intentar apagarlo. Después de varios intentos y con ganas de empezar a leer lo saqué de su funda protectora y le hice varios resets con la punta de un boli en la hendidura posterior, pero seguía sin responder.
+<!-- more -->
 
 Lo habría perdido para siempre? Comprobé el fabricante, [Longshine](http://treiber.longshine.de/index.php?option=com_jdownloads&view=viewcategory&catid=1&Itemid=133&lang=en), ya que la web de[ iliber](http://www.iliber.com/) no parecía responder.
 

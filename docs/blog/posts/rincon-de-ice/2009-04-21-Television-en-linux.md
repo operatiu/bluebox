@@ -22,6 +22,7 @@ Hace algún tiempo instalé una sintonizadora de video en mi PC, concretamente u
 <http://www.linlap.com/wiki/installing+the+latest+v4l+tv+tuner+drivers+for+ubuntu+8.10>
 
 y volví a intentarlo.
+<!-- more -->
 
 Fue tan sencillo como situarme en **cd /usr/src/** y renombrar la carpeta v4l-dvb (por si las fly’s, en lugar de eliminarla) para generarla de nuevo con el contenido actualizado del driver:
 

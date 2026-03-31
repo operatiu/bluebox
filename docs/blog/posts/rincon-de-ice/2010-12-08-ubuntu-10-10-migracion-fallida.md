@@ -25,6 +25,7 @@ Lo primero que hice fue una actualización tradicional, cambiando el soporte de 
 </a>
 
 Aparentemente todo había ido bien, bueno había que hacer algunos ajustes, pero de pronto noté algunos problemas, la mayoría relacionados con la gráfica, una Nvidia GeForce 8800 GT.
+<!-- more -->
 
 Ahora tengo una gráfica, GeForce GTS 450 de 1 GB, pero configurada a partir del driver propietario desde <http://www.nvidia.es/Download/index.aspx?lang=es> instalando previamente **build-essential** y **linux-headers** para tu kernel, por ejemplo con, **apt-get install linux-headers-$(uname -r)** y por último cerrando las ‘X’, **sudo service gdm stop** en el caso de gdm, luego accedemos a un terminal desde el que instalamos el paquete de drivers con un simple *sudo sh nvidiaDriver.run* parece que los drivers estaban dando problemas, pero con esto se acabaron.
 

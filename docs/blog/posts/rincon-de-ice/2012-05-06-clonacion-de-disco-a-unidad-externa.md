@@ -24,6 +24,7 @@ Una utilidad muy potente que nos permite hacer imágenes de disco o CD/DVD es **
 Tan sólo debemos utilizar un: **\# fdisk -l** para determinar que unidad queremos clonar o unidad origen (**if**) y unidad destino (**of**)
 
 El comando es el siguiente:
+<!-- more -->
 
 ```
 sudo dd if=/dev/sda of=/dev/sdh bs=4096 conv=notrunc,noerror

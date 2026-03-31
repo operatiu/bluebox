@@ -18,6 +18,7 @@ tags:
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/TV-Set-Retro-icon_a4lhay.png "dlna")
 
 Cada vez más, nos vamos acercando a una nueva forma de ver la televisión y esta como dispositivo físico está empezando a evolucionar, ya no sólo cuenta con conexiones HDMI o con resoluciones de 1080, sino que además incorporan wifi y pequeñas aplicaciones integradas de acceso a la televisión a la carta, que por que no decirlo, es una buena opción que incorporan las cadenas televisivas pero que si puedes verla desde el sofá siempre será más cómodo que desde el pc.
+<!-- more -->
 
 A partir de aquí nos encontramos con sistemas como el que ofrece LG o Samsung en sus Smart TV, (así como muchísimas más compañías), el sistema de compartición de contenidos DLNA (Digital Living Network Alliance)basado en parte, en el protocolo UPnP que nos permite hacer streaming vía wifi en nuestra red doméstica de aquellos contenidos multimedia almacenados en el pc, tablet o el móvil, hacia la TV.
 

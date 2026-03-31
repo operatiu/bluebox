@@ -20,6 +20,8 @@ tags:
 Hola, si has llegado hasta aquí posiblemente te suceda lo que a mi me pasó con java. Resulta que con la última actualización de java la 1.6.0.15 dejé de ver las páginas web que cargaban algún applet de java, como por ejemplo esta: [calculadora wiris](http://cv.uoc.edu/webapps/calculadora/es/index.html)
 
 Buscando información por la red, di con lo que parecía la solución, que consistía en crear un enlace simbólico a la carpeta plugins del navegador (en mi caso firefox) apuntando a la ubicación del nuevo archivo del plugin de java, osea ejecutamos en una consola lo siguiente (asegurándonos primero que las rutas y versiones son las correctas):
+<!-- more -->
+
 
 ```
 cd /usr/lib/firefox-3.6/pluginssudo ln -s /usr/lib/jvm/java-6-sun-1.6.0.15/jre/lib/i386/libnpjp2.so 

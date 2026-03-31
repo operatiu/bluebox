@@ -23,6 +23,8 @@ Para dicho propósito utilicé Openssh bajo Ubuntu 9.04. Ya había utilizado ant
 
 No pretendo explicar todo lo que conlleva dicho montaje, para eso hay miles de páginas y tutoriales muy bien detallados, pero si hacer una especie de recetario de las cosas a tener en cuenta y luego cada cual que busque en el lugar adecuado.
 
+<!-- more -->
+
 Supongamos que en el pc de casa tenemos corriendo a Ubuntu o cualquier otra distro GNU/Linux, este pc hará las veces de servidor y cualquier otro, por ejemplo el pc de la oficina será el cliente.
 
 **1.-** Para conectar remotamente con nuestro servidor, necesitaremos tener una IP fija o bien si nuestra IP es dinámica, saber que IP pública le corresponde en cada momento, ya que esta irá variando (según nuestro ISP) o cada vez que reiniciemos el router, y claro no es cuestión de que cada mañana antes de salir accedamos a [http://www.whatismyip.com/](http://www.whatismyip.com/) para obtenerla, por lo tanto lo fácil es registrarnos en alguna página del tipo [http://www.no-ip.com/](http://www.no-ip.com/) o [http://www.dyndns.com/](http://www.dyndns.com/) o cualquier otra que nos proporcione de forma gratuita una url a la que redireccionar nuestra IP dinámica.  

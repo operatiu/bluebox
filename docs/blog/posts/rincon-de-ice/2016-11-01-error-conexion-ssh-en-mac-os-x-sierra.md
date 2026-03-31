@@ -22,6 +22,7 @@ tags:
 Recientemente, tras la actualización de Capitan a Sierra, he podido comprobar que no podia conectar vía ssh mediante un terminal de MAC OS X Sierra con otros equipos, como lo hacía normalmente hasta la actualización.
 
 El error al intentar conectar era el siguiente:
+<!-- more -->
 
 ```
 Unable to negotiate with X.X.X.X port 22: no matching host key type found. Their offer: ssh-dss

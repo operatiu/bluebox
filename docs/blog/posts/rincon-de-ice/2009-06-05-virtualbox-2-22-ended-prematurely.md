@@ -20,6 +20,7 @@ tags:
 En uno de mis PC's tengo un Windows XP donde está instalado Virtual Box 2.22 con varias máquinas virtuales, entre ellas Ubuntu 9.04 que funciona a la perfección. 
 
 Cual fue mi sorpresa, cuando al intentar actualizar a la 2.24, justo cuando está a punto de acabar la instalación, se produce un error que hace imposible la instalación diciendo que esta ha finalizado prematuramente. Intenté realizar una desinstalación de la versión 2.22 y resulta que se producía el mismo error, así que estaba claro dónde estaba el problema. 
+<!-- more -->
 
 Pues bien, la solución es sencilla, se trata básicamente de sustituir las claves del registro que dicen **HKEY_CURRENT_USER por HKEY_LOCAL_MACHINE** de la rama correspondiente, que se detalla a continuación en pocos pasos.  
 

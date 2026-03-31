@@ -22,6 +22,7 @@ tags:
 Esta vez va del error de kernel que devuelve VirtualBox 4.2.18, al ejecutarse sobre la nueva versión de OS X, Mavericks.
 
 Al principio parecía que con sólo instalar la versión 4.3.0 de VirtualBox ya estaba todo solucionado, pero lo cierto es que al cerrar y volver a abrir VBox cualquier màquina virtual que no usara NAT, por ejemplo las configuradas con Adaptador puente o Bridge, volvían a dar el mensaje de error y no se dejaban abrir.
+<!-- more -->
 
 La solución ha sido simple, se trata de eliminar los archivos que empiezan con el nombre VBox… y que se encuentran en el directorio: **/Library/Extensions/** estos son:
 

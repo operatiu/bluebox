@@ -37,6 +37,7 @@ desde consola:
 sudo fdisk -l  
 ```
 Eso nos devolverá un listado de las particiones y el sistema de archivos utilizados, entre otras cosas:  
+ <!-- more -->
   
 > Disco /dev/sda: 21.5 GB, 21474836480 bytes  
 > 255 cabezas, 63 sectores/pista, 2610 cilindros  

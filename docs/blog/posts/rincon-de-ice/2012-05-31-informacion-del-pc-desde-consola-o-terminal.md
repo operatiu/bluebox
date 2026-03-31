@@ -19,6 +19,7 @@ tags:
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/Terminal-icon_kqgazm.png "shell")
 
 Existen una serie de comandos muy interesantes y a veces poco conocidos para obtener información de nuestro equipo, directamente desde la línea de órdenes. Para empezar abrimos un terminal Ctrl+T.
+<!-- more -->
 
 - **curl ifconfig.me**
 

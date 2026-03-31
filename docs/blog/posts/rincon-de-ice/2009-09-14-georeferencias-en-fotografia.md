@@ -18,6 +18,8 @@ tags:
 
 Hace algún tiempo hice unas fotografías con mi móvil, un Nokia N96 que al igual que otros Nokia de la serie N (si no estoy equivocado) te permiten visualizar la posición en el mapa (desde el mismo móvil) de donde fue hecha la fotografía, gracias al GPS que incorpora.
 
+<!-- more -->
+
 Esto es un proceso automático que se realiza siempre y cuando tengamos la opción de Grabar Ubicación, activada dentro del menú *Ajustes* de la cámara de fotos y que el GPS interno encuentre satélites suficientes para poder triangular nuestra posición. Como podréis ver, esta característica de geoposición unida a la buena calidad de imagen que incorpora la cámara de nuestro Nokia, abre muchas posibilidades a la hora de tomar fotografías, ya que esta información (coordenadas geográficas, altitud, etc..) se graban junto con el resto de metadatos que incorpora la foto y que una vez transferidas a nuestro PC pueden consultarse con cualquier programa de imagen que muestre información EXIF, con lo que obtendremos los siguientes datos en el apartado GPS:
 
 - Referencia de latitud GPS

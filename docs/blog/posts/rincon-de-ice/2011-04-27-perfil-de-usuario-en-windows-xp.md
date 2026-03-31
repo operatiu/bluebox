@@ -23,6 +23,7 @@ El caso es que el usuario de nombre 'CORREO' se debia llamar, por ejemplo, 'Nuev
 Cómo hacemos para cambiar no sólo su nombre, sino su carpeta, programas, permisos, etc.. en Windows XP?
 
 Lo más sencillo es lo siguiente:
+<!-- more -->
 
 1.- Entramos en una sesión como usuario administrador.
 

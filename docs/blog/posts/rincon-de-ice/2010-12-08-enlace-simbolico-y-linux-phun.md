@@ -19,6 +19,8 @@ tags:
 A diferencia de lo que ocurre en entornos Windows, dónde un enlace simbólico podríamos asemejarlo a un “acceso directo” o lo que es lo mismo: Un destino que puede ser un directorio o un archivo, representado por un icono. En entornos GNU/Linux este adquiere un mayor potencial.
 
 El enlace o link lo llamaremos mediante el comando ln y para utilizarlo como enlace simbólico el comando será ln -s, dicha llamada quedará completada con el destino o archivo al que queremos enlazar y con el nombre que utilizaremos para llamarlo.
+<!-- more -->
+
 
 ```
 ln -s /lib/destino.txt /home/llamaDestino
