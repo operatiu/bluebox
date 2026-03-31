@@ -63,12 +63,6 @@ Es recomanable doncs, que els valors que busquem estiguin en un altre full.
 |||||||
 |||||||
 |||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
 |Query|Concepte|Import||||
 ||TAXES CFGS|180,00 €||||
   
@@ -86,11 +80,6 @@ Ens pot interessar filtrar per una data que podem anar substituint d’una cel·
 |AutoCodi|Concepte|Data|Dades|Import|Acumulat|
 |---|---|---|---|---|---|
 |1|TAXES CFGS|14/08/2020|1|360,00 €|360,00 €|
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
 |||||||
 |||||||
 |||||||
