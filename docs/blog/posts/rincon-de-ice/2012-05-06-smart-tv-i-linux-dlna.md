@@ -1,8 +1,8 @@
 ---
-title: 'Smart TV i Linux DLNA'
-
 date:
   created: 2012-05-06
+
+title: 'Smart TV i Linux DLNA'
 
 author: jmong
 

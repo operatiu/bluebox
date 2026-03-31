@@ -1,8 +1,8 @@
 ---
-title: 'Clonar disco de sistema Windows'
-
 date: 
     created: 2018-08-03
+
+title: 'Clonar disco de sistema Windows'
 
 author: jmong
 

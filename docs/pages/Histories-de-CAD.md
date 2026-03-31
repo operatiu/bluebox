@@ -1,9 +1,13 @@
 ---
-title: Històries de CAD
 date:
   created: 2022-02-03
+
+title: Històries de CAD
+
 author: jmong
+
 layout: page
+
 categories:
   - Cad
 tags:

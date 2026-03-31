@@ -1,8 +1,8 @@
 ---
-title: 'Formateo a bajo nivel'
-
 date:
   created: 2009-12-24
+
+title: 'Formateo a bajo nivel'
 
 author: jmong
 

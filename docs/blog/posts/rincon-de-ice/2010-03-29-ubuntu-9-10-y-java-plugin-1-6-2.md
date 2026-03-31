@@ -1,8 +1,8 @@
 ---
-title: 'Ubuntu 9.10 y Java-plugin 1.6'
-
 date:
   created: 2010-03-29
+
+title: 'Ubuntu 9.10 y Java-plugin 1.6'
 
 author: jmong
 

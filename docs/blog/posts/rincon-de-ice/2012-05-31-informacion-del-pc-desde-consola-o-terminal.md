@@ -1,8 +1,8 @@
 ---
-title: 'Información del PC desde consola o terminal'
-
 date:
   created: 2012-05-31
+
+title: 'Información del PC desde consola o terminal'
 
 author: jmong
 

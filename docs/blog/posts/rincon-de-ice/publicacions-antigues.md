@@ -1,8 +1,8 @@
 ---
-id: 566
-title: 'Publicacions antigues (rincondeice)'
 date: 
     created: 2022-04-14
+
+title: 'Publicacions antigues (rincondeice)'
 ---
 
 author: root

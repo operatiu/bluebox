@@ -1,9 +1,13 @@
 ---
-title: Fotografia
 date:
   created: 2022-04-14
+
+title: Fotografia
+
 author: jmong
+
 layout: page
+
 categories:
   - Fotografia
 tags:

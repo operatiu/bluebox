@@ -1,8 +1,8 @@
 ---
-title: 'Conectando Nokia a Parrot'
-
 date:
   created: 2009-04-29
+
+title: 'Conectando Nokia a Parrot'
 
 author: jmong
 

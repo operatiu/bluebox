@@ -1,8 +1,8 @@
 ---
-title: 'El naveg@nte'
-
 date: 
     created: 2009-04-21
+
+title: 'El naveg@nte'
 
 author: jmong
 

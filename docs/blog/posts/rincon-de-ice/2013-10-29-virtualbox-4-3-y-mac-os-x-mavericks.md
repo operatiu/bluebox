@@ -1,8 +1,8 @@
 ---
-title: 'VirtualBox 4.3 y MAC OS X Mavericks'
-
 date:
   created: 2013-10-29
+
+title: 'VirtualBox 4.3 y MAC OS X Mavericks'
 
 author: jmong
 

@@ -1,8 +1,8 @@
 ---
-title: 'Consola y el carácter tilde ~'
-
 date:
   created: 2009-10-01
+
+title: 'Consola y el carácter tilde ~'
 
 author: jmong
 

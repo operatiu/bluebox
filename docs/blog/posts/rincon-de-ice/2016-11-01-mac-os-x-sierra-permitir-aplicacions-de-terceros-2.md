@@ -1,8 +1,8 @@
 ---
-title: 'MAC OS X Sierra &#8211; Permitir aplicacions de terceros'
-
 date:
   created: 2016-11-01
+
+title: 'MAC OS X Sierra &#8211; Permitir aplicacions de terceros'
 
 author: jmong
 

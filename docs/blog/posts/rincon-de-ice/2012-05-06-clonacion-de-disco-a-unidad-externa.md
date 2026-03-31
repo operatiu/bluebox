@@ -1,8 +1,8 @@
 ---
-title: 'Clonación de disco a unidad externa'
-
 date:
   created: 2012-05-06
+
+title: 'Clonación de disco a unidad externa'
 
 author: jmong
 

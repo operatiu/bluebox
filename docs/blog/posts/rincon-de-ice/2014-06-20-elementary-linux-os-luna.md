@@ -1,8 +1,8 @@
 ---
-title: 'Elementary - Linux OS Luna'
-
 date:
   created: 2014-06-20
+
+title: 'Elementary - Linux OS Luna'
 
 author: jmong
 

@@ -1,8 +1,8 @@
 ---
-title: 'Conexión remota con OpenSSH'
-
 date:
   created: 2009-10-02
+
+title: 'Conexión remota con OpenSSH'
 
 author: jmong
 

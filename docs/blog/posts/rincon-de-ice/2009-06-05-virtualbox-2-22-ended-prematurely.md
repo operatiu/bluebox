@@ -1,8 +1,8 @@
 ---
-title: 'VirtualBox 2.22 ended prematurely'
-
 date:
   created: 2009-06-05
+
+title: 'VirtualBox 2.22 ended prematurely'
 
 author: jmong
 

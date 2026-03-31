@@ -1,8 +1,8 @@
 ---
-title: 'Error conexión SSH en MAC OS X Sierra'
-
 date:
   created: 2016-11-01
+
+title: 'Error conexión SSH en MAC OS X Sierra'
 
 author: jmong
 

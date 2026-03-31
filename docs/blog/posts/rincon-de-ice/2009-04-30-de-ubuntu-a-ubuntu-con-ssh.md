@@ -1,8 +1,8 @@
 ---
-title: 'De Ubuntu a Ubuntu con SSH'
-
 date:
   created: 2009-04-30
+
+title: 'De Ubuntu a Ubuntu con SSH'
 
 author: jmong
 

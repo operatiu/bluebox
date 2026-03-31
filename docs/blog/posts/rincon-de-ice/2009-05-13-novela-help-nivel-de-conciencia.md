@@ -1,8 +1,8 @@
 ---
-title: 'Novela HELP - Nivel de conciencia'
-
 date:
   created: 2009-05-13
+
+title: 'Novela HELP - Nivel de conciencia'
 
 author: jmong
 

@@ -1,8 +1,8 @@
 ---
-title: 'Georeferencias en fotografía'
-
 date:
   created: 2009-09-14
+
+title: 'Georeferencias en fotografía'
 
 author: jmong
 

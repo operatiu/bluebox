@@ -1,8 +1,8 @@
 ---
-title: 'Ubuntu 10.10 migración fallida'
-
 date:
   created: 2010-12-08
+
+title: 'Ubuntu 10.10 migración fallida'
 
 author: jmong
 

@@ -1,8 +1,8 @@
 ---
-title: 'Perfil de usuario en Windows XP'
-
 date:
   created: 2011-04-27
+
+title: 'Perfil de usuario en Windows XP'
 
 author: jmong
 

@@ -1,8 +1,8 @@
 ---
-title: 'VirtualBox, comandos de terminal'
-
 date:
   created: 2012-05-23
+
+title: 'VirtualBox, comandos de terminal'
 
 author: jmong
 

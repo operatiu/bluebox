@@ -1,8 +1,8 @@
 ---
-title: 'Enlace simbólico y Linux Phun'
-
 date:
   created: 2010-12-08
+
+title: 'Enlace simbólico y Linux Phun'
 
 author: jmong
 

@@ -1,8 +1,11 @@
 ---
-title: Google sheets page
 date:
   created: 2022-04-23
+
+title: Google sheets page
+
 author: jmong
+
 categories:
   - Informàtica
 tags:
