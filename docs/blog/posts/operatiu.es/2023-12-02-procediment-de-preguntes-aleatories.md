@@ -3,7 +3,7 @@ title: 'Procediment de preguntes aleatòries'
 date: 
   created: 2023-12-02
 
-author: Joan M.
+author: jmong
 
 categories:
     - Educació

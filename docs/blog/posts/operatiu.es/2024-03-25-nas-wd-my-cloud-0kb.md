@@ -3,7 +3,7 @@ title: NAS WD My Cloud - 0KB
 date: 
     created: 2024-03-25
 
-author: Joan M.
+author: jmong
 
 categories:
     - Informàtica

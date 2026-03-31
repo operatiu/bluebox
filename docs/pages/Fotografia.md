@@ -19,6 +19,8 @@ Fotografies, imatges vectorials i de mapa de bits, edició, etc..
 
 ## Publicacions de fotografia, disseny i edició
 
+![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/camera_hvjkjm.jpg "camera")
+
 ### Imprimir imatge a escala amb Affinity photo
 Imprimir imatge a una mida exacte És bastant comú, tenir imatges fotogràfiques o escanejades que desitgem imprimir en una grandària exacta, ja sigui per una qüestió estètica o pràctica, com posar la foto resultant en un marc determinat. Des de Affinity photo, igual que succeeix en altres aplicacions ho podem fer de manera senzilla. Per a imprimir a una grandària especifico des de Affinity photo haurem de redimensionar la imatge. La forma més senzilla i ràpida serà, canviar les unitats que apareixen en píxels a cms, això no farà res de moment però ens servirà per a situar-nos en la nostra escala d’unitats habitual.
 

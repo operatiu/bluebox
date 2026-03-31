@@ -3,7 +3,7 @@ title: 'PL/SQL Cursors'
 date: 
   created: 2023-04-15
 
-author: Joan M.
+author: jmong
 
 categories:
     - Informàtica

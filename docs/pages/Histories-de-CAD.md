@@ -27,7 +27,7 @@ Amb les Olimpíades del ’92, vam descobrir Slackware i Debian, més tard (fina
 
 Quins temps, però tornem al CAD, aquells nous i rudimentaris sistemes de dibuix que implementaren [AutoLISP](https://www.autodesk.com/blogs/autocad/tag/autolisp-to-automate-your-tasks/) i que van permetre personalitzar amb rutines la nostra feina. En aquells temps vaig crea una de les meves primeres pàgines: [Estación de CAD](http://www.geocities.com/jmong.geo/) que ja fa temps va desaparèixer.
 
-## Auto LISP
+## AutoLISP
 
 AutoCAD va permetre certa programació en el seu producte estrella, basada en un llenguatge de intel·ligència artificial dels anys cinquanta.
 

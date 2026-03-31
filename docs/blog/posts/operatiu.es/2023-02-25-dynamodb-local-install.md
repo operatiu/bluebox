@@ -3,7 +3,7 @@ title: 'Dynamodb - local install'
 date: 
     created: 2023-02-25
 
-author: Joan M.
+author: jmong
 
 categories:
     - Informàtica

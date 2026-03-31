@@ -4,7 +4,7 @@ title: MySQL - Scripts d'entrada i sortida
 date: 
     created: 2024-05-18
 
-author: Joan M.
+author: jmong
 
 categories:
     - mysql

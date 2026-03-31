@@ -4,7 +4,7 @@ date:
 
 title: 'Nou lloc i domini'
 
-author: Joan M.
+author: jmong
 
 summary: Primera entrada en operatiu.es
 

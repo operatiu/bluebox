@@ -3,7 +3,7 @@ title: 'Diccionari de dades en MySQL'
 date: 
   created: 2023-02-24
 
-author: Joan M.
+author: jmong
 
 categories:
     - Informàtica

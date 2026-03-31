@@ -1,20 +1,21 @@
 ---
+title: 'El naveg@nte'
+
 date: 
     created: 2009-04-21
 
-title: 'Nou lloc i domini'
-
-author: Joan M.
+author: jmong
 
 categories:
     - Relats
-
 tags:
     - portada
     - theblueblox
 ---
 
 # El Naveg@nte
+
+![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/hand_ru1uvu.jpg "navegante")
 
 **EN MEDIO DEL OCÉANO, AL OESTE DE NINGUNA PARTE**
 

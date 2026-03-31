@@ -4,7 +4,7 @@ date:
 
 title: 'Beques curs 2022-23'
 
-author: Joan M.
+author: jmong
 
 categories:
     - Educació

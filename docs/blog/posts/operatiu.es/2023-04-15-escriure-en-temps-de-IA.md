@@ -3,7 +3,7 @@ title: 'Escriure en temps de IA'
 date: 
     created: 2023-04-15
 
-author: Joan M.
+author: jmong
 
 categories:
     - Educació

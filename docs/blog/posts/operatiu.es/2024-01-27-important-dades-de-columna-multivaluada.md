@@ -3,7 +3,7 @@ title: 'Important dades de columna multivaluada'
 date: 
   created: 2024-01-27
 
-author: Joan M.
+author: jmong
 
 categories:
     - Educació
