@@ -40,7 +40,7 @@ El nostre projecte consistirà en crear un cluster de 3 servidors MySQL 8 en 3 M
 
 ### Configuracions prèvies
 
->[!NOTE]
+>[!Nota]
 La configuració de xarxa serà la següent:
 
 | MV | Tipus | IP | Permís | ID |
