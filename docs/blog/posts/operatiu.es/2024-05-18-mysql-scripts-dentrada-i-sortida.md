@@ -1,8 +1,8 @@
 ---
-title: MySQL - Scripts d'entrada i sortida
-
 date: 
     created: 2024-05-18
+
+title: 'MySQL - Scripts d'entrada i sortida'
 
 author: jmong
 

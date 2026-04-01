@@ -1,7 +1,8 @@
 ---
-title: 'Important dades de columna multivaluada'
 date: 
   created: 2024-01-27
+
+title: 'Important dades de columna multivaluada'
 
 author: jmong
 
