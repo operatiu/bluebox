@@ -29,6 +29,7 @@ Provem amb uns exemples sobre la BBDD vk22
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/vk22-300x276_nrln9r.png "vk22")
 
 Suposem les següents consultes i el que ens retorna el servidor en cada cas.
+<!-- more -->
 
 ```
 SELECT * From productes where stock > 50 and stock < 100;

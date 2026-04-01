@@ -23,6 +23,7 @@ Aquest error a vegades és més comú del que seria desitjable. El problema és 
 Quan cerques informació per tal de resoldre’l, en la majoria de llocs, la resposta és:
 
 O bé que li donis a l’usuari tots els permisos i privilegis.
+<!-- more -->
 
 **Exemple**
 

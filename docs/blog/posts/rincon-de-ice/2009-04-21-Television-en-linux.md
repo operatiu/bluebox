@@ -17,12 +17,12 @@ tags:
 ---
 
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/television-08-icon_ge0epg.png "TV")
-Hace algún tiempo instalé una sintonizadora de video en mi PC, concretamente una [Hauppauge HVR-4000](https://hauppauge.co.uk/spain/site/products/data_hvr4400.html), pero hasta hace unos días me había sido imposible hacerla funcionar en Ubuntu 8.10 o en versiones anteriores. Era un espinita clavada que se me resistía y os aseguro que había probado de todo, incluso el driver experimental v4L, hasta que di con esta dirección: <!-- more -->
+Hace algún tiempo instalé una sintonizadora de video en mi PC, concretamente una [Hauppauge HVR-4000](https://hauppauge.co.uk/spain/site/products/data_hvr4400.html), pero hasta hace unos días me había sido imposible hacerla funcionar en Ubuntu 8.10 o en versiones anteriores. Era un espinita clavada que se me resistía y os aseguro que había probado de todo, incluso el driver experimental v4L, hasta que di con esta dirección: 
+<!-- more -->
 
 <http://www.linlap.com/wiki/installing+the+latest+v4l+tv+tuner+drivers+for+ubuntu+8.10>
 
 y volví a intentarlo.
-<!-- more -->
 
 Fue tan sencillo como situarme en **cd /usr/src/** y renombrar la carpeta v4l-dvb (por si las fly’s, en lugar de eliminarla) para generarla de nuevo con el contenido actualizado del driver:
 
