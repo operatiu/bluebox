@@ -20,7 +20,7 @@ tags:
 
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/v1733948003/script.64_txf7zr.png "Imatge inicial entrada")
 
-En alguna ocasió ens pot resultar útil, que totes aquelles comandes que enviem al servidor MySQL, no només retornin la sortida per pantalla, sinó que s’escrigui en un arxiu. És tan fàcil com redireccionar la sortida en el mateix arxiu de guió. Un cop provem les comandes de forma manual, les escriurem i executarem des de dins o bé des de fora del servidor.
+En alguna ocasió ens pot resultar útil, que totes aquelles comandes que enviem al servidor MySQL, no només retornin la sortida per pantalla, sinó que s’escrigui en un arxiu. És tan fàcil com redireccionar la sortida en el mateix arxiu de guió. Un cop provem les comandes de forma manual, les escriurem i executarem des de dins o bé des de fora del servidor. 
 <!-- more -->
 
 **Exemple d’script**
@@ -48,7 +48,7 @@ nopager
 notee
 ```
 
-- Des de dins del client MySQL el carregarem amb SOURCE
+Des de dins del client MySQL el carregarem amb SOURCE
 
 ```shell
 SOURCE ~/script_out.sql
