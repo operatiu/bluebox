@@ -21,7 +21,7 @@ tags:
 ---
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/v1734024158/help-file-icon_h4czow.png "Imatge inicial entrada")
 
-L’altre dia, els meus alumnes havien de fer un examen de consultes SQL, en un servidor MySQL, així que vaig pensar que seria interessant, que de les 10 queries que havien de resoldre, què millor que crear un banc de consultes de la base de dades en la que havien de treballar i fer un sorteix aleatori abans de començar la prova. D’aquesta forma, tots treballarien en les seves consultes i no havien de ser exactament les mateixes que les del company. Vaig crear una petita base de dades de dues taules amb l’alumnat i el total de preguntes a utilitzar.
+L’altre dia, els meus alumnes havien de fer un examen de consultes SQL, en un servidor MySQL, així que vaig pensar que seria interessant, que de les 10 queries que havien de resoldre, què millor que crear un banc de consultes de la base de dades en la que havien de treballar i fer un sorteix aleatori abans de començar la prova. D’aquesta forma, tots treballarien en les seves consultes i no havien de ser exactament les mateixes que les del company. Vaig crear una petita base de dades, de dues taules amb l’alumnat i el total de preguntes a utilitzar.
 
 <!-- more -->
 
