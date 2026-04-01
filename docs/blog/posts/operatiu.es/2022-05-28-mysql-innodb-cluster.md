@@ -40,7 +40,7 @@ El nostre projecte consistirà en crear un cluster de 3 servidors MySQL 8 en 3 M
 
 ### Configuracions prèvies
 
->[!NOTE]
+>[!NOTE]:
 La configuració de xarxa serà la següent:
 - Server 0 (s0) – Cluster00 – 172.10.0.100 – R/W – server\_id = 10  
 - Server 1 (s1) – Cluster01 – 172.10.0.101 – R/O – server\_id = 11  
@@ -55,7 +55,7 @@ Instal·larem module-assistant i build-essential en cada servidor
     <summary>Mostra el codi</summary>
      <pre><code class="language-bash">
 sudo m-a prepare  
-Install guest additions  
+[ Instal·lar guest additions ]
 sudo su  
 mount -t iso9660 -o loop /dev/sr0 /media/cdrom  
 cd /media/cdrom  
@@ -69,7 +69,6 @@ eject /dev/sr0
 
 Configuració de mostra d’un dels arxius de configuració de xarxa en **/etc/network/interfaces**
 
->[!CODI]
 <details>
     <summary>Mostra el codi</summary>
      <pre><code class="language-bash">
@@ -115,7 +114,6 @@ ff02::2 ip6-allrouters
 1.- Install mysql-community-server i mysql-shell en les 3 MV (memoria ram 1GB)  
 2.- Configuració de /etc/my.cnf als 3 utilitzant la IP de cadascú i el port 33061 per loose-group\_replication\_local\_address=172.10.0.10**?**:33061
 
->[!CODI]
 <details>
     <summary>Mostra el codi</summary>
      <pre><code class="language-bash">
@@ -287,7 +285,6 @@ shell.connect('clustermanager@cluster00:3306')
 var cluster = dba.rebootClusterFromCompleteOutage('DBcluster')
 ```
 
->[!CODI]
 <details>
     <summary>Mostra el codi</summary>
      <pre><code class="language-bash">
@@ -529,7 +526,6 @@ var cluster = dba.getCluster()
 cluster.status()
 ```
 
->[!CODI]
 <details>
     <summary>Mostra el codi</summary>
      <pre><code class="language-bash">
@@ -608,7 +604,6 @@ Per últim, des del cluster02 tornem a demanar l’estat del group replication
 cluster.status()
 ```
 
->[!CODI]
 <details>
     <summary>Mostra el codi</summary>
      <pre><code class="language-bash">
