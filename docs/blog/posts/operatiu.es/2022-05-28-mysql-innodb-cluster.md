@@ -30,8 +30,9 @@ tags:
 
 Permetre oferir l’accés al sistema o recursos de forma continuada i sense errors, aturades ni pèrdues de fiabilitat i en cas que succeeixin que puguin tornar al seu estat òptim en el menor temps possible.
 
-Una forma d’obtenir alta disponibilitat en MySQL és amb la utilització de MySQL Cluster per crear un grup de replicació o Group Replication i connectar amb els clients o les aplicacions, mitjançant un o diversos MySQL Router.
+Una forma d’obtenir alta disponibilitat en MySQL és amb la utilització de MySQL Cluster per crear un grup de replicació o Group Replication i connectar amb els clients o les aplicacions, mitjançant un o diversos MySQL Router. 
 <!-- more -->
+
 
 <a href="https://res.cloudinary.com/dbuv9r3p5/image/upload/mysql_innodb_cluster_i14mab.png" target="_blank">
   <img src="https://res.cloudinary.com/dbuv9r3p5/image/upload/w_400/mysql_innodb_cluster_i14mab.png">
