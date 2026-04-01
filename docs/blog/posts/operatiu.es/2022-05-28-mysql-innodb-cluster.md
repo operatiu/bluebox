@@ -50,7 +50,7 @@ La configuració de xarxa serà la següent:
 Instal·larem les Virtualbox guest additions en cada màquina
 
 Instal·larem module-assistant i build-essential en cada servidor
->[!CODI]
+
 <details>
     <summary>Mostra el codi</summary>
      <pre><code class="language-bash">
