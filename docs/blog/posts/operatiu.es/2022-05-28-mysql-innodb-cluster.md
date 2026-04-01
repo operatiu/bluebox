@@ -43,10 +43,12 @@ El nostre projecte consistirà en crear un cluster de 3 servidors MySQL 8 en 3 M
 >[!NOTE]
 La configuració de xarxa serà la següent:
 
-| Server 0 (s0) | Cluster00 | 172.10.0.100 | R/W | server_id = 10  
-| Server 1 (s1) | Cluster01 | 172.10.0.101 | R/O | server_id = 11  
-| Server 2 (s2) | Cluster02 | 172.10.0.102 | R/O | server_id = 12  
-| Router (r0) | Router | 172.10.0.254 | | 
+| MV | Tipus | IP | Permís | ID |
+|--|--|--|--|--|
+| Server 0 (s0) | Cluster00 | 172.10.0.100 | R/W | server_id = 10 |
+| Server 1 (s1) | Cluster01 | 172.10.0.101 | R/O | server_id = 11 |
+| Server 2 (s2) | Cluster02 | 172.10.0.102 | R/O | server_id = 12 |
+| Router (r0) | Router | 172.10.0.254 | | |
 
 Instal·larem les Virtualbox guest additions en cada màquina
 
