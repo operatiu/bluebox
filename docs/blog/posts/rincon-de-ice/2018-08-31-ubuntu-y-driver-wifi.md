@@ -28,6 +28,7 @@ tags:
 Después de la instalación de Ubuntu 18.06 64 bits en modo seguro, resultó que el sistema no reconocía la WIFI. Maticemos, no reconocía el hardware que incorpora el portátil (un HP 15-DA0113NS) i por tanto no podía configurar el acceso de red usando la wifi.
 
 Primero debemos saber que chipset estamos utilizando. Para ello podemos acceder a la web del fabricante i consultar las características de nuestro modelo de portátil, aunque en este caso HP no proporciona esa información, al menos directamente. Otra opción es entrar en Windows i consultarla en las propiedades del dispositivo y la más fácil, escribir alguna órden que me devuelva esa información, como **dmesg** o **lshw** entre otras.
+<!-- more -->
 
 ```
 dmesg | grep -i wire  
@@ -95,8 +96,13 @@ Al finalizar deberemos reiniciar, pero atención porque al estar en Secure Mode,
 
 Introducimos el password que definimos antes de reiniciar y continuamos el arranque, ahora ya con el nuevo kernel.
 
+
 Sitios consultados:
 
-```
-<a href="https://forum.ubuntu-fr.org/viewtopic.php?id=2027300">https://forum.ubuntu-fr.org/viewtopic.php?id=2027300</a><br></br><a href="https://ubuntuforums.org/showthread.php?t=2383612&page=2&p=13734908#post13734908">https://ubuntuforums.org/showthread.php?t=2383612&page=2&p=13734908#post13734908</a><br></br><a href="http://de.archive.ubuntu.com/ubuntu/pool/">http://de.archive.ubuntu.com/ubuntu/pool/</a><br></br><a href="https://www.kernel.org/">https://www.kernel.org/</a><br></br><a href="https://ubuntuforums.org/showthread.php?t=2392454">https://ubuntuforums.org/showthread.php?t=2392454</a><br></br><a href="https://linuxhint.com/how-to-upgrade-the-kernel-on-ubuntu-17-10/">https://linuxhint.com/how-to-upgrade-the-kernel-on-ubuntu-17-10/</a>
-```
+[Ubuntu fòrums](https://forum.ubuntu-fr.org/viewtopic.php?id=2027300)
+
+[Ubuntu fòrums](https://ubuntuforums.org/showthread.php?t=2383612&page=2&p=13734908#post13734908)
+
+[Ubuntu archive](http://de.archive.ubuntu.com/ubuntu/pool/)
+
+<a href="https://www.kernel.org/">https://www.kernel.org/</a><br></br><a href="https://ubuntuforums.org/showthread.php?t=2392454">https://ubuntuforums.org/showthread.php?t=2392454</a><br></br><a href="https://linuxhint.com/how-to-upgrade-the-kernel-on-ubuntu-17-10/">https://linuxhint.com/how-to-upgrade-the-kernel-on-ubuntu-17-10/</a>

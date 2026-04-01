@@ -16,12 +16,13 @@ tags:
     - teléfono
 ---
 
-![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/nokia-n96_f8pfeq.jpg "nokia")
+![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/nokia-n96_f7wfvr.png "nokia")
 
 Hace algún tiempo cambié mi móvil por un Nokia N96 con Simbian de 3ª generación y cual fue mi sorpresa al ver que no podía vincularlo al manos libres del coche, un Parrot CK3000 Evolution con firmware 5.07A. Vacié la memoria del parrot con la secuencia “-“, “+” cinco veces, pero nada. Aproveché una revisión del coche para actualizarlo por la última versión que había en ese momento, la 5.10C, pero seguía sin poder vincularlo :(Ni Parrot ni Nokia me daban una solución satisfactoria, así que había que buscarse la vida o cambiar uno de los dos dispositivos, cosa que no estaba dispuesto a hacer. 
 
 **La solución fue fácil.**
 <!-- more -->
+
 Se trata de enviar nuestra lista de contactos de la agenda al manos libres por bluetooth de forma que sea Parrot el que nos “invite” a establecer la conexión y luego sólo tendremos que definir dicha conexión (ya establecida) como un dispositivo fiable, de forma que las sucesivas vinculaciones se hagan de forma automática y así se logre saltar la barrera de diferencia entre protocolos que mantienen diferentes niveles de seguridad y no hacen posible la vinculación de una forma “normal”.  
 
 1.- Vamos a nuestra agenda de contactos o menú “GUIA”. [Imagen 1](http://img529.imageshack.us/img529/3236/screenshot0001ev7.jpg)

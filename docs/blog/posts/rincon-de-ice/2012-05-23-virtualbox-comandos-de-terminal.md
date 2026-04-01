@@ -15,7 +15,7 @@ tags:
     - VirtualBox
 ---
 
-![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/oracle-virtualbox_xf8dlk.png "VirtualBox")
+![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/VirtualBox-icon_ant9gc.png "VirtualBox")
 
 Es habitual tener instalado VirtualBox en alguna distribución GNU/Linux, por ejemplo Ubuntu o Debian, que son las que suelo utilizar y necesitar hacer alguna cosa utilizando un terminal. Para ello tenemos diferentes comandos que pueden ser útiles:
 <!-- more -->

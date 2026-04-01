@@ -31,6 +31,9 @@ Podem fer servir [alwaysdata](https://www.alwaysdata.com/en/) com a eina que ens
 Afegir un lloc i instal·lar aplicacions de diferents categories:  
 Mailing, marqueting, gestors de continguts, eines de desenvolupament, e-commerce, fòrums, frameworks, gestió de projectes, de documents, etc… i llenguatges com: HTML, Elixir, Go, Java, Javascript, NodeJS, PHP, Perl, Python, Ruby, etc..
 
+>[!NOTE]
+[Dades meteorològiques](http://jtemps.alwaysdata.net "El temps")
+
 **Dominis**
 
 Crea dominis personalitzats.
@@ -71,7 +74,7 @@ show databases;
 
 **Accés remot**
 
-:hash:FTP  :hash:SSH  :hash:WebDAV
+#FTP  #SSH  #WebDAV
 
 **Sistemes de gestió avançada**
 
@@ -79,7 +82,8 @@ Estat del servidors, tasques programades, serveis, processos, adreces IP, certif
 
 Amb les eines que ens proporcionen, podem instal·lar des d’un gestor de continguts senzill com Backdrop o Yellow, fins a un Joomla o un wordpress, una wiki o un moodle, etc..
 
-!!!note "Haurem de tenir en compte què:"
+> [!TIP]
+Haurem de tenir en compte què:
 
 Només disposem de 100MB amb el registre gratuït, per tant haurem de consultar de quan en quan, quin és l’espai de disc que hem consumit. En el cas de que arribem al nostre límit podrem esborrar allò innecessari que no fem servir i ens malbarata l’espai, la millor manera és mitjançant una connexió SSH via web o des d’un terminal. Si estàs acostumat a treballar amb Linux, no serà cap problema.
 

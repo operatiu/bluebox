@@ -2,7 +2,7 @@
 date:
   created: 2022-02-03
 
-title: Històries de CAD
+title: 'Històries de CAD'
 
 author: jmong
 

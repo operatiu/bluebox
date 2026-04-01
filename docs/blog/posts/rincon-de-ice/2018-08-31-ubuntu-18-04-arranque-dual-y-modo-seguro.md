@@ -26,6 +26,7 @@ tags:
 Hace unos días tuve que instalar Ubuntu en un portátil nuevo (HP 15-DA0113NS) que venía con un Windows 10.
 
 Para aprovechar todo el potencial, redimensioné la partición de Windows con Gparted utilizando un live multisistema o un (gparted live simplemente, pero de los últimos). A MS Windows lo dejé con unos 100GB y el resto del disco SSD de 256 (excepto las particiones de recuperación y demás) lo dejé libre para Linux, utilizando el sistema de particionado GPT.
+<!-- more -->
 
 El problema empieza con la BIOS ya que cada fabricante utiliza su propia nomenclatura y a veces es algo confusa. Lo que en equipos como LENOVO Ideapad (acceso a BIOS utilizando clip en NOVO buton o hendidura al lado del conector de auriculares) se diferencia como **UEFI / Legacy Boot** en los últimos portátiles de HP lo encontraremos como **Secure Mode** que por defecto viene habilitado.
 
