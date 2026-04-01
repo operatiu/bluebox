@@ -6,7 +6,7 @@ title: 'Televisión en Linux'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

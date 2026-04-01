@@ -6,7 +6,7 @@ title: 'Formateo a bajo nivel'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

@@ -6,7 +6,7 @@ title: 'Enlace simbólico y Linux Phun'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

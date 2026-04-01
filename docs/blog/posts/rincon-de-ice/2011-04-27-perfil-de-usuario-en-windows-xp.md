@@ -6,7 +6,7 @@ title: 'Perfil de usuario en Windows XP'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

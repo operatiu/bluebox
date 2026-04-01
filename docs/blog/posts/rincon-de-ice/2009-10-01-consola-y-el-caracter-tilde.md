@@ -6,7 +6,7 @@ title: 'Consola y el carácter tilde ~'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

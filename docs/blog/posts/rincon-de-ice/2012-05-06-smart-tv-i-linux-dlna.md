@@ -6,7 +6,7 @@ title: 'Smart TV i Linux DLNA'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

@@ -6,7 +6,7 @@ title: 'De Ubuntu a Ubuntu con SSH'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

@@ -6,7 +6,7 @@ title: 'Novela HELP - Nivel de conciencia'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

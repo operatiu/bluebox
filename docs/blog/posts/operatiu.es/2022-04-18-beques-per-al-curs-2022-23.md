@@ -6,6 +6,8 @@ title: 'Beques curs 2022-23'
 
 author: jmong
 
+layout: post
+
 categories:
     - Educació
 tags:

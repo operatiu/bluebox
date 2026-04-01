@@ -6,7 +6,7 @@ title: 'Actualizar el firmware de iliber'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

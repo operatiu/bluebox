@@ -5,6 +5,8 @@ date:
 
 author: jmong
 
+layout: post
+
 categories:
     - Educació
     - Informàtica

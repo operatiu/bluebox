@@ -6,6 +6,8 @@ date:
 
 author: jmong
 
+layout: post
+
 categories:
     - mysql
     - Portada

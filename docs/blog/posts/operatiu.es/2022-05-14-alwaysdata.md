@@ -1,8 +1,12 @@
 ---
-title: alwaysdata
 date: 
     created: 2022-05-14
+
+title: alwaysdata
+
 author: jmong
+
+layout: post
 
 categories:
     - Informàtica

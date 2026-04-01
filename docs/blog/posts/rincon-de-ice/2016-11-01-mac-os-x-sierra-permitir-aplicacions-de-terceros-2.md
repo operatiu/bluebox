@@ -6,7 +6,7 @@ title: 'MAC OS X Sierra &#8211; Permitir aplicacions de terceros'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

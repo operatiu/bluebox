@@ -6,7 +6,7 @@ title: 'Georeferencias en fotografía'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

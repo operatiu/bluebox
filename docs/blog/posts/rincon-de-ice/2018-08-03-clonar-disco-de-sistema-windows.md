@@ -6,6 +6,8 @@ title: 'Clonar disco de sistema Windows'
 
 author: jmong
 
+layout: post
+
 categories:
     - Antigues
     - Informàtica
@@ -63,7 +65,7 @@ Ahora sólo cabe esperar. Al disponer de la versión Free (tardará un poco más
 
 Otra recomendación, si tenemos espacio suficiente en el disco SSD podemos utilizar [GPARTED](https://gparted.org/download.php) o cualquier otra utilidad (el mismo EaseUS dispone de [Partition Master](https://www.easeus.com/partition-manager/)) para redimensionar nuestra partición de Windows y dejar espacio suficiente para instalar un sistema GNU/Linux y disponer así de un arranque dual con dos sistemas operativos, que siempre viene bien, sobre todo si uno de ellos es **Linux** 😉 
 
-!!!note "Importante" 
+> [!NOTE]
 Si el disco SSD que has comprado es CRUCIAL, puedes descargar la utilidad [Acronis True Image for Crucial](https://www.acronis.com/en-us/promotion/CrucialHD-download/) que te permite hacer la **clonación** al vuelo del disco origen y redimensionar al mismo tiempo para el disco destino (por ejemplo un disco de 1TB con 100GB usados a uno de 256GB). Antes de empezar asegúrate de inicializar el disco SSD.
 
 Recuerda que puede que necesites [optimizar tu SSD ](https://protegermipc.net/2017/10/04/optimizar-disco-ssd/)

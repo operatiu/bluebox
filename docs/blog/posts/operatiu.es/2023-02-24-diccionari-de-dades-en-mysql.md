@@ -1,9 +1,12 @@
 ---
-title: 'Diccionari de dades en MySQL'
 date: 
   created: 2023-02-24
 
+title: 'Diccionari de dades en MySQL'
+
 author: jmong
+
+layout: post
 
 categories:
     - Informàtica

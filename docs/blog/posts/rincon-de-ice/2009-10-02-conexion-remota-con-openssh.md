@@ -6,7 +6,7 @@ title: 'Conexión remota con OpenSSH'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

@@ -1,9 +1,12 @@
 ---
-title: 'Escriure en temps de IA'
 date: 
     created: 2023-04-15
 
+title: 'Escriure en temps de IA'
+
 author: jmong
+
+layout: post
 
 categories:
     - Educació

@@ -6,7 +6,7 @@ title: 'Clonación de disco a unidad externa'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

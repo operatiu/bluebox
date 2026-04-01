@@ -6,7 +6,7 @@ title: 'Información del PC desde consola o terminal'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

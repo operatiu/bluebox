@@ -6,6 +6,8 @@ title: 'Nou lloc i domini'
 
 author: jmong
 
+layout: post
+
 summary: Primera entrada en operatiu.es
 
 categories:

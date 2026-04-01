@@ -6,7 +6,7 @@ title: 'Elementary - Linux OS Luna'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

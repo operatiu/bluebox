@@ -1,9 +1,12 @@
 ---
-title: 'Dynamodb - local install'
 date: 
     created: 2023-02-25
 
+title: 'Dynamodb - local install'
+
 author: jmong
+
+layout: post
 
 categories:
     - Informàtica

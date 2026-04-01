@@ -6,12 +6,12 @@ title: 'VirtualBox 4.3 y MAC OS X Mavericks'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues
 tags:
-    - 'ExtensionPack'
+    - ExtensionPack
     - Mavericks
     - theblueblox
     - VBox

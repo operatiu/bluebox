@@ -1,9 +1,12 @@
 ---
 date: 
     created: 2022-04-21
+
 title: 'Calendari preinscripció, ensenyament post-obligatori'
 
 author: jmong
+
+layout: post
 
 categories:
     - Educació

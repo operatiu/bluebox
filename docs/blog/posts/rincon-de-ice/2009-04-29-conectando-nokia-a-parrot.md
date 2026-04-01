@@ -6,7 +6,7 @@ title: 'Conectando Nokia a Parrot'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

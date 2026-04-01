@@ -6,6 +6,8 @@ title: 'El naveg@nte'
 
 author: jmong
 
+layout: post
+
 categories:
     - Relats
 tags:

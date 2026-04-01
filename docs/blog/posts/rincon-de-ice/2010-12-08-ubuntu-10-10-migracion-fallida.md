@@ -6,7 +6,7 @@ title: 'Ubuntu 10.10 migración fallida'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

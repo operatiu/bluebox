@@ -6,7 +6,7 @@ title: 'Error conexión SSH en MAC OS X Sierra'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

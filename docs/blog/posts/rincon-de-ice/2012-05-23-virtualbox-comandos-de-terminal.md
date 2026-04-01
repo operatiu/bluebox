@@ -6,7 +6,7 @@ title: 'VirtualBox, comandos de terminal'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

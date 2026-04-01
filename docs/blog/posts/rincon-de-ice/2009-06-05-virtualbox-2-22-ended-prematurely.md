@@ -6,7 +6,7 @@ title: 'VirtualBox 2.22 ended prematurely'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues

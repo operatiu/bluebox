@@ -6,7 +6,7 @@ title: 'Ubuntu 9.10 y Java-plugin 1.6'
 
 author: jmong
 
-layout: blog
+layout: post
 
 categories:
     - Antigues
