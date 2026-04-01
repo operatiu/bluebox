@@ -35,21 +35,21 @@ Una forma temporal de solucionar-ho, fins a una nova actualització per part d�
 
 Això mostrarà les diferents unitats  
 
-```
+<code class="language-bash">
 /dev/disk0 (internal, physical):  
-\#: TYPE NAME SIZE IDENTIFIER  
-0: GUID\_partition\_scheme \*121.3 GB disk0  
+#: TYPE NAME SIZE IDENTIFIER  
+0: GUID_partition_scheme *121.3 GB disk0  
 1: EFI EFI 209.7 MB disk0s1  
-2: Apple\_APFS Container disk2 121.1 GB disk0s2
+2: Apple_APFS Container disk2 121.1 GB disk0s2
 
 /dev/disk1 (internal, physical):  
-\#: TYPE NAME SIZE IDENTIFIER  
-0: GUID\_partition\_scheme \*1.0 TB disk1  
+#: TYPE NAME SIZE IDENTIFIER  
+0: GUID_partition_scheme *1.0 TB disk1  
 1: EFI EFI 209.7 MB disk1s1  
-2: Apple\_APFS Container disk2 1000.0 GB disk1s2
+2: Apple_APFS Container disk2 1000.0 GB disk1s2
 
 /dev/disk2 (synthesized):  
-\#: TYPE NAME SIZE IDENTIFIER  
+#: TYPE NAME SIZE IDENTIFIER  
 0: APFS Container Scheme – +1.1 TB disk2  
 Physical Stores disk0s2, disk1s2  
 1: APFS Volume Macintosh HD – Datos 732.2 GB disk2s1  
@@ -59,30 +59,32 @@ Physical Stores disk0s2, disk1s2
 5: APFS Volume Macintosh HD 11.3 GB disk2s5
 
 /dev/disk3 (external, physical):  
-\#: TYPE NAME SIZE IDENTIFIER  
-0: Apple\_partition\_scheme \*1.0 TB disk3  
-1: Apple\_partition\_map 32.3 KB disk3s1  
-2: Apple\_Driver43 28.7 KB disk3s2  
-3: Apple\_Driver43 28.7 KB disk3s3  
-4: Apple\_Driver\_ATA 28.7 KB disk3s4  
-5: Apple\_Driver\_ATA 28.7 KB disk3s5  
-6: Apple\_FWDriver 262.1 KB disk3s6  
-7: Apple\_Driver\_IOKit 262.1 KB disk3s7  
-8: Apple\_Patches 262.1 KB disk3s8  
-9: Apple\_HFS Passport 1.0 TB disk3s10
+#: TYPE NAME SIZE IDENTIFIER  
+0: Apple_partition_scheme *1.0 TB disk3  
+1: Apple_partition_map 32.3 KB disk3s1  
+2: Apple_Driver43 28.7 KB disk3s2  
+3: Apple_Driver43 28.7 KB disk3s3  
+4: Apple_Driver_ATA 28.7 KB disk3s4  
+5: Apple_Driver_ATA 28.7 KB disk3s5  
+6: Apple_FWDriver 262.1 KB disk3s6  
+7: Apple_Driver_IOKit 262.1 KB disk3s7  
+8: Apple_Patches 262.1 KB disk3s8  
+9: Apple_HFS Passport 1.0 TB disk3s10
 
 /dev/disk4 (external, physical):  
-\#: TYPE NAME SIZE IDENTIFIER  
-0: FDisk\_partition\_scheme \*250.1 GB disk4
-```  
+#: TYPE NAME SIZE IDENTIFIER  
+0: FDisk_partition_scheme *250.1 GB disk4
+</code>
+
 **1: Windows\_NTFS SSD 250.1 GB disk4s1**
-```
+
+<code class="language-bash">
 /dev/disk5 (disk image):  
-\#: TYPE NAME SIZE IDENTIFIER  
-0: GUID\_partition\_scheme +1.9 TB disk5  
+#: TYPE NAME SIZE IDENTIFIER  
+0: GUID_partition_scheme +1.9 TB disk5  
 1: EFI EFI 209.7 MB disk5s1  
-2: Apple\_HFS Copias de Time Machine 1.9 TB disk5s2
-```
+2: Apple_HFS Copias de Time Machine 1.9 TB disk5s2
+</code>
 
 En aquest cas i en color vermell, he assenyalat la partició de la unitat a muntar.
 
