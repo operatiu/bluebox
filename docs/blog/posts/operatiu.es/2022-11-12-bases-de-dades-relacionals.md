@@ -24,6 +24,7 @@ tags:
 ![img_post](https://res.cloudinary.com/dbuv9r3p5/image/upload/database-settings-icon_cjumdj.png "apunts")
 
 Per treballar amb bases de dades relacionals i concretament amb MySQL, he creat un lloc a <https://coda.io> on pots accedir i connectar-te en línia a diferents bases de dades i també consultar alguns petits apunts i exemples d’SQL.
+<!-- more -->
 
 [RA1 - Introducció a les BBDD](https://coda.io/@jmong/0484-ra1)
 [RA2 - Llenguatge SQL - DDL](https://coda.io/@jmong/0484-ra2)
