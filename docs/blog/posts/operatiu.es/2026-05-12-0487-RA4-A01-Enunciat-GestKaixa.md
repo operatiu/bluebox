@@ -8,7 +8,7 @@ author: jmong
 
 layout: post
 
-summary: Activitats: Fase 1 i Fase 2
+summary: 'Activitats: Fase 1 i Fase 2'
 
 categories:
     - Uncategorized
