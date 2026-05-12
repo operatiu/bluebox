@@ -5,7 +5,7 @@ site_description: The blue box - Solucions a petits problemes informàtics o de 
 site_author: Joan M.
 
 # Copyright
-copyright: Copyright &copy; 2024 Joan M. 
+copyright: Copyright &copy; 2024 Joan M.
 
 #Configuration
 theme:
@@ -74,7 +74,9 @@ plugins:
         - mysql
         - mac
         - Linux
-        
+        - Activitats
+        - General
+
         ##post_excerpt: optional
         ##post_excerpt_separator: <!-- more -->
         ##blog_dir: blog
@@ -119,7 +121,7 @@ plugins:
 extra:
   consent:
     title: Cookie consent
-    description: >- 
+    description: >-
       Aquest lloc no fa servir cookies pròpies o de tercers.
     actions:
       - accept

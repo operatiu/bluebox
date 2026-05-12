@@ -11,7 +11,7 @@ layout: post
 summary: 'Activitats Fase 1 i Fase 2'
 
 categories:
-    - Uncategorized
+    - Activitats
 
 tags:
     - activitat
@@ -28,7 +28,7 @@ L'aplicació haurà de connectar-se a la base de dades `kaixa` i permetre el seg
 
 <!-- more -->
 
-## FASE 1
+### FASE 1
 
 - Autenticar usuaris.
 - Gestionar comptes bancaris.
@@ -47,7 +47,7 @@ Aquesta pràctica integra els continguts següents del mòdul:
 - Documentació tècnica en Markdown.
 
 
-# 2. Material proporcionat
+## 2. Material proporcionat
 
 Es facilitarà l'arxiu:
 
@@ -66,15 +66,15 @@ Aquest script crearà:
 La base de dades es lliurarà sense registres.
 
 
-# 3. Preparació inicial
+## 3. Preparació inicial
 
-## 3.1 Importació de la base de dades
+### 3.1 Importació de la base de dades
 
 ```bash
 mysql -u root -p < kaixa.sql
 ```
 
-## 3.2 Creació de l'usuari d'aplicació
+### 3.2 Creació de l'usuari d'aplicació
 
 ```sql
 CREATE USER 'cashbox_app'@'%' IDENTIFIED BY 'app123';
@@ -84,7 +84,7 @@ GRANT ALL PRIVILEGES ON kaixa.* TO 'cashbox_app'@'%';
 FLUSH PRIVILEGES;
 ```
 
-## 3.3 Creació del projecte
+### 3.3 Creació del projecte
 
 ```bash
 dotnet new console -n GestKaixa
@@ -92,7 +92,7 @@ cd GestKaixa
 dotnet add package MySql.Data
 ```
 
-# 4. Repositori GitHub
+## 4. Repositori GitHub
 
 L'alumnat crearà al seu compte de GitHub, un repositori privat anomenat:
 
@@ -107,13 +107,13 @@ El repositori s'haurà de compartir amb mi ( **operatiu** ) com a col·laborador
 El projecte s'haurà de versionar mitjançant Git i etiquetes (`tags`).
 
 
-# 5. Requisits funcionals
+## 5. Requisits funcionals
 
-## 5.1 Accés al sistema
+### 5.1 Accés al sistema
 
 L'aplicació ha de permetre dos tipus d'accés:
 
-### Administrador
+#### Administrador
 Usuari:
 ```text
 cashbox_app
@@ -124,11 +124,11 @@ Password:
 app123
 ```
 
-### Clients
+#### Clients
 Usuaris registrats a la taula `Usuaris`.
 
 
-# 6. Funcionalitats de l'usuari client
+## 6. Funcionalitats de l'usuari client
 
 Un usuari autenticat podrà:
 
@@ -141,7 +141,7 @@ Un usuari autenticat podrà:
 0. Sortir.
 
 
-# 7. Funcionalitats de l'administrador
+## 7. Funcionalitats de l'administrador
 
 L'usuari administrador podrà:
 
@@ -152,16 +152,16 @@ L'usuari administrador podrà:
 0. Sortir.
 
 
-# 8. Estructura mínima del programa
+## 8. Estructura mínima del programa
 
 Les primeres versions es poden implementar en un únic fitxer  de codi font tipus, `Program.cs`.
 S'ha de diferenciar correctament l'accés a la BBDD, el menú dels usuaris (clients) i el menú de l'usuari administrador dels comptes bancaris.
 
-# 9. Versions obligatòries
+## 9. Versions obligatòries
 
 El desenvolupament s'ha de realitzar com a mínim en tres versions.
 
-## Versió 1.0
+### Versió 1.0
 
 Funcionalitats mínimes:
 
@@ -178,7 +178,7 @@ Etiqueta Git:
 v1.0
 ```
 
-## Versió 1.1
+### Versió 1.1
 
 Millores:
 
@@ -192,7 +192,7 @@ Etiqueta Git:
 v1.1
 ```
 
-## Versió 1.2
+### Versió 1.2
 
 Millores:
 
@@ -207,7 +207,7 @@ v1.2
 ```
 
 
-# 10. Documentació obligatòria
+## 10. Documentació obligatòria
 
 Cada versió haurà d'incloure un document Markdown:
 
@@ -221,30 +221,30 @@ També es pot utilitzar:
 - `README_v1.1.md`
 - `README_v1.2.md`
 
-## Contingut mínim de cada document
+### Contingut mínim de cada document
 
-### Descripció de la versió
+#### Descripció de la versió
 Explicació del funcionament del programa.
 
-### Estructura del codi
+#### Estructura del codi
 Classes i mètodes principals.
 
-### Novetats
+#### Novetats
 Només a partir de la versió 1.1.
 
-### Jocs de proves
+#### Jocs de proves
 Execucions reals del programa en cada versió.
 
-### Verificació a MySQL
+#### Verificació a MySQL
 Consultes SQL que demostrin que els resultats són correctes.
 
-### Conclusions
+#### Conclusions
 Comentaris sobre el funcionament i les dificultats trobades.
 
 
-# 11. Exemple de joc de proves
+## 11. Exemple de joc de proves
 
-## Execució del programa
+### Execució del programa
 
 ```text
 Usuari: anna
@@ -265,7 +265,7 @@ Concepte: Nòmina
 Moviment registrat correctament.
 ```
 
-## Verificació en MySQL
+### Verificació en MySQL
 
 ```sql
 SELECT * FROM Moviments ORDER BY id DESC LIMIT 1;
@@ -280,7 +280,7 @@ SELECT * FROM Alertes ORDER BY id DESC;
 ```
 
 
-# 12. Estructura recomanada del repositori
+## 12. Estructura recomanada del repositori
 
 ```text
 GestKaixa/
@@ -293,7 +293,7 @@ GestKaixa/
 ```
 
 
-# 13. Publicació de versions
+## 13. Publicació de versions
 
 Per a cada versió:
 
@@ -311,33 +311,33 @@ Repetir el mateix procés amb:
 
 També es pot gestionar amb GitHub Desktop i crear els tags i les version a GitHub (web).
 
-# 14. Criteris d'avaluació
+## 14. Criteris d'avaluació
 
-## Funcionament de l'aplicació
+### Funcionament de l'aplicació
 - Login correcte.
 - Connexió a la base de dades.
 - Execució de totes les funcionalitats.
 
-## Qualitat del codi
+### Qualitat del codi
 - Organització.
 - Llegibilitat.
 - Ús de classes i mètodes.
 
-## Ús de Git i GitHub
+### Ús de Git i GitHub
 - Repositori privat.
 - Versions etiquetades.
 - Historial coherent.
 
-## Documentació
+### Documentació
 - Completa i clara.
 - Amb jocs de proves.
 - Amb comprovacions SQL.
 
-## Validació funcional
+### Validació funcional
 - Coherència entre sortides del programa i dades reals a la base de dades.
 
 
-# 15. Lliurament
+## 15. Lliurament
 
 Cal lliurar:
 
@@ -350,7 +350,7 @@ Cal lliurar:
 4. Documents Markdown corresponents.
 
 
-# 16. Recomanacions
+## 16. Recomanacions
 
 Es recomana:
 
@@ -360,7 +360,11 @@ Es recomana:
 - Verificar sempre els resultats amb consultes SQL.
 
 
-# 17.  FASE 2
+## 17.  Segon lliurament
+
+Un cop finalitzada, comprovada i lliurada la primera fase, pots començar amb la segona. Els requisits de format i publicació a GitHub son els mateixos.
+
+### FASE 2
 
 Els alumnes que finalitzin la primera fase, poden implementar la segona:
 
@@ -372,7 +376,7 @@ Els alumnes que finalitzin la primera fase, poden implementar la segona:
 
 Les etiquetes de versió començaran en **v2.0**
 
-# 18. Resultat final esperat
+## 18. Resultat final esperat
 
 En finalitzar la pràctica, l'alumne haurà desenvolupat una aplicació realista de gestió bancària que integra:
 
