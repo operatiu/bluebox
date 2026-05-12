@@ -1,4 +1,3 @@
-
 ---
 date: 
     created: 2026-05-12
@@ -19,7 +18,6 @@ tags:
     - theblueblox
 ---
 
-
 # Activitat RA4-A01 - GestKaixa
 
 ## 1. Objectiu de l'activitat
@@ -27,6 +25,8 @@ tags:
 En aquesta activitat es desenvoluparà una aplicació de consola en C# anomenada `GestKaixa` que permetrà gestionar una base de dades bancària simplificada.
 
 L'aplicació haurà de connectar-se a la base de dades `kaixa` i permetre el següent:
+
+<!-- more -->
 
 ## FASE 1
 
