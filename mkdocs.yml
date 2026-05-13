@@ -44,7 +44,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.sections
-    # - navigation.expand
+    - navigation.expand
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
