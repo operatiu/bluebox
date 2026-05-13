@@ -44,7 +44,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.sections
-    - navigation.expand
+    ##- navigation.expand
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -201,8 +201,8 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Tags: tags.md
   - Blog:
       - blog/index.md
 #      - blog/tags.md
+  - Tags: tags.md
 
