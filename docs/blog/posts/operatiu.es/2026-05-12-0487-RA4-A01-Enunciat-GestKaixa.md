@@ -389,3 +389,112 @@ En finalitzar la pràctica, l'alumne haurà desenvolupat una aplicació realista
 - Refactorització
 
 Aquesta activitat constitueix la síntesi final dels continguts treballats al mòdul i en concret a l'RA4 de Refactorització i control de versions
+
+
+### Notes:
+
+#### GitHub en local
+
+L'opció més fàcil i visual és instal·lar GitHub Desktop que està suportat en Windows i MAC, però si vols treballar en Linux fent servir línia de comandes, també ho pots fer.
+
+##### Instal·lar GIT a GNU/Linux
+
+```bash
+sudo apt update
+sudo apt install git -y
+```
+
+Podem comprovar la versió instal·lada amb:
+
+```bash
+git --version
+```
+
+##### Configurar nom i correu
+
+```bash
+git config --global user.name "Nom utilitzat al compte"
+git config --global user.email "correu.registrat@correu.com"
+```
+
+Podem comprovar la configuració amb:
+
+```bash
+git config --global --list
+```
+
+##### Clonar el repositori
+
+```bash
+git clone https://github.com/operatiu/gestkaixa.git
+```
+
+Es crearà la carpeta gestkaixa
+
+##### Crear un nou arxiu markdown
+
+```bash
+nano -l v1.0.md
+```
+
+##### Afegim l'arxiu al control de versions
+
+```bash
+git add v1.0.md
+```
+
+o des de la carpeta gestkaixa qualsevol canvi i elements interiors o aniuats cap en dins
+
+```bash
+git add .
+```
+
+##### Generar el commit
+
+```bash
+git commit -m "Arxiu de contingut de versió 1.0"
+```
+
+##### Generar el tag
+
+```bash
+git tag v1.0
+```
+
+##### Pujar els canvis a GitHub
+
+```bash
+git push origin main --tags
+```
+
+o
+
+```bash
+git push --tags
+```
+
+La primera vegada, [GitHub Docs sobre tokens personals](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) recomanarà autenticar-se amb un _Personal Access Token (PAT)_ en lloc de contrasenya.
+
+Si vols guardar les credencials localment perquè Git les recordi:
+
+```bash
+git config --global credential.helper store
+```
+
+També es pot instal·lar GitHub CLI per autenticar-se un sol cop.
+
+```bash
+sudo apt install gh -y
+gh auth login
+```
+
+
+### Bibliografia
+
+[Git Cheat Sheet (PDF)](https://education.github.com/git-cheat-sheet-education.pdf  "Resum oficial força útil" )
+
+[GitHub Docs](https://docs.github.com/en "Documentació oficial de GitHub")
+
+[GitHub Desktop](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop  "Aplicació escriptori")
+
+[Càlcul codi IBAN](https://es.ibancalculator.com/)
