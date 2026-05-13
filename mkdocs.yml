@@ -199,10 +199,10 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-#nav:
-#  - Home: index.md
-#  - Tags: tags.md
-#  - Blog:
-#      - blog/index.md
+nav:
+  - Home: index.md
+  - Tags: tags.md
+  - Blog:
+      - blog/index.md
 #      - blog/tags.md
 
