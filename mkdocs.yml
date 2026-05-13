@@ -205,5 +205,3 @@ markdown_extensions:
 #  - Blog:
 #      - blog/index.md
 #      - blog/tags.md
-
-<!-- Force rebuild -->
