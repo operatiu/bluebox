@@ -366,13 +366,15 @@ Un cop finalitzada, comprovada i lliurada la primera fase, pots començar amb la
 
 ### FASE 2
 
-Els alumnes que finalitzin la primera fase, poden implementar la segona:
+L'alumnat que finalitzi la primera fase, podrà començar a implementar la segona:
 
 - Generació automàtica del número de compte.
 - Registre de l'usuari que realitza cada moviment.
 - Sol·licituds pendents per afegir titulars o autoritzats.
 - Refactorització en múltiples fitxers.
 - Tests automatitzats.
+
+- **Una nova funcionalitat que ara per ara no tingui el menú d'administrador i sigui rellevant**
 
 Les etiquetes de versió començaran en **v2.0**
 
