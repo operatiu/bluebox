@@ -162,4 +162,8 @@ cython_debug/
 #.idea/
 
 # Obsidian
-# .obsidian/
+.obsidian/
+
+.DS_Store
+**/.DS_Store
+
